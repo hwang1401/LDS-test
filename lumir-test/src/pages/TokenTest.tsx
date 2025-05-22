@@ -17,40 +17,6 @@ const TokenTest: React.FC = () => {
     <div>
       <h2>시맨틱 토큰 테스트</h2>
       
-      <div style={{ marginBottom: '30px' }}>
-        <h3>JavaScript에서 토큰 값 접근</h3>
-        <p>토큰 객체에서 직접 값을 추출하여 출력합니다:</p>
-        <ul style={{ textAlign: 'left', maxWidth: '500px', margin: '0 auto' }}>
-          <li>
-            <strong>Primary Color:</strong> {primaryColor}
-            <span 
-              style={{ 
-                display: 'inline-block', 
-                width: '20px', 
-                height: '20px', 
-                backgroundColor: primaryColor,
-                marginLeft: '10px',
-                border: '1px solid #ccc'
-              }} 
-            />
-          </li>
-          <li>
-            <strong>Secondary Color:</strong> {secondaryColor}
-            <span 
-              style={{ 
-                display: 'inline-block', 
-                width: '20px', 
-                height: '20px', 
-                backgroundColor: secondaryColor,
-                marginLeft: '10px',
-                border: '1px solid #ccc'
-              }} 
-            />
-          </li>
-          <li><strong>Body Font Size:</strong> {fontSize}</li>
-        </ul>
-      </div>
-      
       {/* 토큰 탭 네비게이션 */}
       <div className="token-tabs">
         <button 
