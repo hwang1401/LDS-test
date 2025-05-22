@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd lumir-test && npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "lumir-test/build",
+  "installCommand": "cd lumir-test && npm install --legacy-peer-deps",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+} 
